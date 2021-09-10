@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat; 
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.rectangle{
+  position: absolute;
+  width: 28px;
+  height: 9px;
+  margin-top: 4%; 
+  background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+  border-radius: 4.5px;
+}
+.nav-text{
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal; 
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #292B2E;
+}
+hr{
+  position: relative;
+  width: 100%;
+  top: 10px; 
+  border: 1px solid #E1E4E8;
+} 
+.card{
+  border:none;
+}
+.card-header {
+  background-color: transparent;
+  border-bottom: 0;
+  border: 0;
+  padding-left: 0;
+}
+.card button{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: black !important;
+  font-weight: bold;
+}
+.btn-link {
+  color: inherit !important;
+  font-weight: bold;
+}
+.btn-link:hover{
+  text-decoration: none;
+}
+.accordion .btn.focus, .accordion .btn:focus {
+  outline: 0;
+  box-shadow: none;
+  text-decoration: none;
+} 
+.w-100 {
+  object-fit: cover;
+  height:500px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 700;
+  color:black;
+  position:relative;
+  width:100%;
+} 
+ .small-text {
+  color: #586069;
+  font-size: 14px;
+  line-height: 24px;
+}
+.card-text{
+  position:relative;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: black !important;
+}
+img.d-block:hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
+}
+.card-img-top:hover{
+  filter: brightness(50%);
+}

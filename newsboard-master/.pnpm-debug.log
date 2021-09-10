@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "Error",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/crio-user/workspace/ashley-makruz-ME_BUILDOUT_XBOARD\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "Error: No package.json (or package.yaml, or package.json5) was found in \"/home/crio-user/workspace/ashley-makruz-ME_BUILDOUT_XBOARD\".\n    at readProjectManifest (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:39769:13)\n    at async Object.readProjectManifestOnly (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:39773:28)\n    at async Object.readProjectManifestOnly (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:39992:24)\n    at async Object.handler (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:120601:24)\n    at async Timeout._onTimeout (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.10.0/node_modules/pnpm/dist/pnpm.cjs:124651:24)"
+    }
+  }
+}
