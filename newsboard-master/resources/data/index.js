@@ -18,7 +18,7 @@ function fillCarousel(datas, idx){
   let id = "collapse";
 
   if(idx == 0){
-    id += "Zero"; 
+    id += "Zero";
   }else if(idx == 1){
       id += "One";
   }else if(idx == 2){
@@ -39,7 +39,7 @@ function fillCarousel(datas, idx){
       {
           html += `<div class="carousel-item active">
                       <div class="card" style="width: 100%;">
-                          <a href="${data.link}"><img class="card-img-top" style="padding: 40px;" height="500px" width="100%" 
+                          <a href="${data.link}"><img class="card-img-top" style="padding: 40px;" height="500px" width="100%"
                           src="${data.enclosure.link}" alt="Card image cap"></a>
                           <div class="card-body">
                               <h5 class="card-title">${data.title}<br>
@@ -87,4 +87,3 @@ function fillCarousel(datas, idx){
           </div>`;
 document.getElementById(id).innerHTML = html;
 }
-//export {init};
